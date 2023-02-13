@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  
+    font-family: sans-serif;
+  }
+  
+  #calculadora {
+    width: 340px;
+    height: 570px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 20px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #title {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  #resultado {
+    height: 120px;
+  }
+  
+  .vsaida {
+    text-align: right;
+    height: 60px;
+    width: 275px;
+    margin: 10px 20px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+  }
+  
+  .teclado {
+    height: 400px;
+  }
+  
+  .botonAux,
+  .numero,
+  .limpar,
+  .division,
+  .suma,
+  .multiplicacion,
+  .resta,
+  .igual {
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .division {
+    font-size: 20px;
+    background-color: #70d6ff;
+  }
+  
+  .suma {
+    font-size: 20px;
+    background-color: #ffd670;
+  }
+  
+  .multiplicacion {
+    font-size: 20px;
+    background-color: #ff70a6;
+  }
+  
+  .resta {
+    font-size: 20px;
+    background-color: #ff9770;
+  }
+  
+  .igual {
+    font-size: 20px;
+    background-color: #e9ff70;
+  }
+  
+  .numero {
+    background-color: #eaedef;
+  }
+  
+  .numero,
+  .botonAux,
+  .limpar,
+  .division,
+  .suma,
+  .multiplicacion,
+  .igual,
+  .resta {
+    cursor: pointer;
+  }
+  
+  .botonAux:active,
+  .numero:active,
+  .limpar:active,
+  .division:active,
+  .suma:active,
+  .multiplicacion:active,
+  .resta:active,
+  .igual:active {
+    font-size: 13px;
+  }
+  
+  .botonAux:focus,
+  .numero:focus,
+  .vazio:focus,
+  .limpar:focus,
+  .division:focus,
+  .suma:focus,
+  .multiplicacion:focus,
+  .resta:focus,
+  .igual:focus {
+    outline: 0;
+  }
+  

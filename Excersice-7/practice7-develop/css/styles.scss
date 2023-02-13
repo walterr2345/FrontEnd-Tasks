@@ -1,0 +1,33 @@
+$primary-color: rgb(30, 130, 224);
+$secondary-color: rgb(20, 102, 179);
+body {
+	text-align: center;
+	color: $primary-secondary;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.counter {
+	margin: 5px;
+	padding: 5px;
+}
+
+.counter__text {
+	font-size: 3em;
+    font-weight: 400;
+}
+
+.counter__button {
+	color: white;
+	background-color: $primary-color;
+	padding: 30px 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 6px solid $secondary-color;
+    border-radius: 3px;
+}
+
+.counter__button:active {
+	border-bottom: none;
+	margin-top: 2px;
+}
